@@ -1,16 +1,82 @@
-# React + Vite
+# AI Interview Preparation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-powered Interview Preparation Platform built using React and OpenRouter API. This application helps students and developers prepare for technical interviews by generating AI-based interview questions and answers in real-time.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* AI Interview Question Generator
+* Topic-Based Technical Questions
+* Real-time AI Responses
+* Modern Responsive UI
+* Fast and Interactive Experience
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript
+* Axios
+* OpenRouter API
+* CSS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash id="w6m2xq"
+git clone https://github.com/yourusername/AI-Interview-Preparation-Platform.git
+```
+
+Go to project folder:
+
+```bash id="k4t9zl"
+cd AI-Interview-Preparation-Platform
+```
+
+Install dependencies:
+
+```bash id="m7n1vk"
+npm install
+```
+
+Create `.env` file:
+
+```env id="p8w3fr"
+VITE_OPENROUTER_API_KEY=your_api_key
+```
+
+Run the project:
+
+```bash id="x5m2qb"
+npm run dev
+```
+
+## Project Structure
+
+```bash id="v4n7zl"
+AI-Interview-Preparation-Platform/
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .env
+├── package.json
+└── vite.config.js
+```
+
+## Future Improvements
+
+* AI Mock Interview Chatbot
+* Authentication System
+* Dashboard Analytics
+* Resume Analyzer Integration
+* Company-wise Interview Preparation
+* Dark/Light Theme Toggle
+
+## Author
+
+Yash Yadav
+
+* GitHub: https://github.com/yashy181
+* LinkedIn: https://www.linkedin.com/in/yash-yadav-348a4a329
